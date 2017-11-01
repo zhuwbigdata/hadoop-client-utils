@@ -1,0 +1,6 @@
+#!/bin/bash
+export ZK_QUORUM=:2181,:2181,.com:2181
+export IMPALA_URI=:21000
+export OOZIE_URI=https://:11443/oozie
+export BEELINE_JDBC_URL1='jdbc:hive2://:10000/default;ssl=true;sslTrustStore=/opt/cloudera/security/jks/custom.truststore;trustStorePassword=changeit;principal=hive/@'
+export BEELINE_JDBC_URL2='jdbc:hive2://:10000/default;ssl=true;sslTrustStore=/opt/cloudera/security/jks/custom.truststore;trustStorePassword=changeit;principal=hive/@'
